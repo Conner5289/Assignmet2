@@ -10,9 +10,9 @@ class coin_flip:
         how_many_flips_int = int(how_many_flips)
 
         while how_many_flips_int != 0:
-            toss = random.randint(1, 2)
+            toss = random.randint(0, 100)
 
-            if toss == 1:
+            if toss % 2 == 0:
                 # coin = 'head'
                 head += 1
             else:
