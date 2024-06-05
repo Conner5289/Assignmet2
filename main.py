@@ -6,7 +6,7 @@ class coin_flip:
         head = 0
         tail = 0
 
-        how_many_flips = input('How many times do you want to flip the coin?')
+        how_many_flips = input('How many times do you want to flip the coin? ')
         how_many_flips_int = int(how_many_flips)
 
         while how_many_flips_int != 0:
