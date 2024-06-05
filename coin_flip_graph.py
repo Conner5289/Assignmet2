@@ -23,9 +23,11 @@ while keep_playing:
 
     plt.show()
 
-    yes_no = input('Do you want to keep playing? Y/N')
+    yes_no = input('Do you want to keep playing? Y/N ')
+    yes_no_upcase = yes_no.upper()
+    print(f'{yes_no_upcase}')
 
-    if yes_no == 'Y':
+    if yes_no_upcase == 'Y':
         keep_playing = True
     else:
         keep_playing = False
